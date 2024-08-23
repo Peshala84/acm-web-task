@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home-inside{
+    background: url("../../assets/image_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 19, 19);
+    display: flex;
+    flex-direction: row;
+}
+.home-inside-left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+   
+    margin-left: 200px;
+    gap: 30px;
+}
+.home-inside-left h1{
+    font-size: 70px;
+    font-weight: 700;
+   
+}
+.home-inside-left p{
+    margin-right: 150px;
+    font-weight: 500;
+}
+.home-inside-left h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.home-inside-left button{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid aqua;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 1s;
+}
+.home-inside-left button:hover{
+    background-color: black;
+    color: white;
+    box-shadow:    
+      0px 0px 20px aqua,
+      0px 0px 40px aqua,
+      0px 0px 60px aqua;
+
+}
+.home-inside-right{
+    width: 50%;
+    height: 100vh;
+  
+   background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1));
+   
+    margin-right: 200px;
+}
