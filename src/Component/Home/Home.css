@@ -23,7 +23,6 @@
     justify-content: center;
     flex-direction: column;
     color: white;
-   
     margin-left: 200px;
     gap: 30px;
 }
@@ -159,8 +158,8 @@
 }
 .home1-inside img{
     z-index: 1;
-    width: 500px;
-    height: 300px;
+    width: 33%;
+    height: 50%;
     border-radius: 4px;
     margin-top: 200px;
     position: absolute;
@@ -186,4 +185,61 @@
     to {
         transform: scale(1.1);
     }
+}
+.home2-inside{
+    border: 2px solid aqua;
+    background: url("../../assets/image_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: row;
+}
+.home2-inside-left{
+    
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1)); 
+    margin-left: 200px;
+    
+}
+.home2-inside-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 30px;
+    color: white;
+   
+    text-align: right;
+}
+.home2-inside-right h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.home2-inside-right button{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid aqua;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+    align-self: flex-end;
+}
+.home2-inside-right button:hover{
+    background-color: black;
+    color: white;
+    box-shadow:    
+      0px 0px 20px aqua,
+      0px 0px 40px aqua,
+      0px 0px 60px aqua;
 }

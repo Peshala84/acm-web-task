@@ -56,7 +56,25 @@ const Home = () => {
         </div>
      </div>
      
-    
+    <div className='home2-inside'>
+      <div className='home2-inside-left'>
+        <div>
+          
+        </div>
+
+      </div>
+      <div className='home2-inside-right'>
+        <h1>'The Last Ship' <br /> Broadway Musical</h1>
+         <p>In 2013, Sting released the album The Last Ship, <br /> 
+          which drew inspiration from his childhood. He spent <br />
+          his early years not far from the shipyards of Wallsend,<br />
+           a Newcastle neighborhood. Singer and actor Jimmy Nail <br />
+           contributed vocals to the album and he also helped Sting <br />
+            develop a musical based on the album.</p>
+            <button>read more</button>
+      </div>
+
+    </div>
 
     </>
   )
