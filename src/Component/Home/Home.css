@@ -71,7 +71,6 @@
 .home1-inside{
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
     background-color: rgb(235, 231, 226);
     height: 90vh;
@@ -79,7 +78,6 @@
 .home1-inside-left{
     display: flex;
     flex-direction: column;
-   
     text-align: left;
     margin: 50px;
     gap: 30px;
@@ -118,7 +116,6 @@
 .home1-inside-right{
     display: flex;
     flex-direction: column;
-    
     text-align: right;
     margin: 20px;
     gap: 30px;
@@ -242,4 +239,71 @@
       0px 0px 20px aqua,
       0px 0px 40px aqua,
       0px 0px 60px aqua;
+}
+.home3-inside{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 231, 226);
+    height: 90vh;
+    padding: 60px;
+    
+   
+}
+.home3-inside-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 60px;
+    gap: 30px;
+   
+}
+.home3-inside-left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home3-inside-left p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home3-inside-left button{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid aqua;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.home3-inside-left button:hover{
+    background-color: black;
+    color: white;
+    box-shadow:    
+      0px 0px 20px aqua,
+      0px 0px 40px aqua,
+      0px 0px 60px aqua;
+
+}
+.home3-inside-right{
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 236, 236);
+    width: 35%;
+    margin-bottom: 100px;
+   
+    
+}
+.home3-inside img{
+    z-index: 1;
+    width: 40%;
+    height: 55%;
+    border-radius: 4px;
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 600px;
+    animation: fadeInUp 1s ease-in-out, hoverEffect 1s infinite alternate;
+    transition: transform 0.3s;
+    animation: imgZoom 2s infinite alternate;
 }

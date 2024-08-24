@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import home1_image from "../../assets/image_2.jpg"
-
+import home3_image from "../../assets/image_4.jpg"
 
 
 const Home = () => {
@@ -74,6 +74,22 @@ const Home = () => {
             <button>read more</button>
       </div>
 
+    </div>
+
+    <div className='home3-inside'>
+      <div className='home3-inside-left'>
+       <h1>Personal Life</h1>
+       <p>In addition to his musical career, <br /> Sting has been active 
+        in human rights and <br /> other social issues. He and his wife, <br />
+        Trudie Styler, have been married since <br /> 1992. The couple 
+        has four children. <br /> Sting also has two other children <br />
+        from his first marriage.</p>
+        <button>read more</button>
+      </div>
+      <div className='home3-inside-right'>
+      
+      </div>
+      <img src={home3_image} alt="" />
     </div>
 
     </>
