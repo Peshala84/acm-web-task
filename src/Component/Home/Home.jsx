@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import home1_image from "../../assets/image_2.jpg"
 
 
 
@@ -23,8 +24,38 @@ const Home = () => {
             </div>
         </div>
     </div>
-    
 
+  
+     <div className='home1-inside'>
+
+        <div className='home1-inside-left'>
+        <h1>Musical legend.</h1>
+          <p>Gordon Sumner, better known as Sting, <br />
+             was born in Newcastle upon Tyne, <br />
+             England, on October 2, 1951. He is best <br />
+             known for his singing career, both with <br />
+             the 1980s band The Police and as a solo <br />
+             artist. Sting is also a distinguished 
+             songwriter <br /> and actor, as well as an active 
+             philanthropist <br /> in causes from environmentalism 
+             to human rights.</p>
+             <button>read more</button>
+        </div>
+        <img src={home1_image} alt="" />
+        <div className='home1-inside-right'>
+        <h1>Acting and <br /> Scoring in Films</h1>
+            <p>Along with his musical exploration and <br />
+                experimentation, Sting found time for <br />
+                acting. He appeared in several films, <br />
+                including the science-fiction drama <br />
+                Dune (1984) and the popular British 
+                crime <br /> film Lock, Stock, and Two 
+                Smoking Barrels (1998).</p>
+             <button>read more</button>
+
+        </div>
+     </div>
+     
     
 
     </>

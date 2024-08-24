@@ -9,17 +9,16 @@
     background: url("../../assets/image_1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
     background-size: contain;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(22, 19, 19);
     display: flex;
     flex-direction: row;
 }
 .home-inside-left{
     width: 50%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,4 +68,122 @@
    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1));
    
     margin-right: 200px;
+}
+.home1-inside{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    background-color: rgb(235, 231, 226);
+    height: 90vh;
+}
+.home1-inside-left{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: left;
+    margin: 50px;
+    gap: 30px;
+    padding: 30px;
+    
+}
+.home1-inside-left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home1-inside-left p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home1-inside-left button{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid aqua;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.home1-inside-left button:hover{
+    background-color: black;
+    color: white;
+    box-shadow:    
+      0px 0px 20px aqua,
+      0px 0px 40px aqua,
+      0px 0px 60px aqua;
+
+}
+.home1-inside-right{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: right;
+    margin: 20px;
+    gap: 30px;
+    padding: 50px;
+    flex: 1;
+    align-items:flex-end;
+    background-color: rgb(238, 236, 236);
+}
+.home1-inside-right h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home1-inside-right p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home1-inside-right button{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid aqua;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.home1-inside-right button:hover{
+    background-color: black;
+    color: white;
+    box-shadow:    
+      0px 0px 20px aqua,
+      0px 0px 40px aqua,
+      0px 0px 60px aqua;
+
+}
+.home1-inside img{
+    z-index: 1;
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 500px;
+    animation: fadeInUp 1s ease-in-out, hoverEffect 1s infinite alternate;
+    transition: transform 0.3s;
+    animation: imgZoom 2s infinite alternate;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes imgZoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
