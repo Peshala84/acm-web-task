@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import home1_image from "../../assets/image_2.jpg"
 import home3_image from "../../assets/image_4.jpg"
+import home5_image from "../../assets/image_6.jpg"
 
 
 const Home = () => {
@@ -25,7 +26,9 @@ const Home = () => {
         </div>
     </div>
 
-  
+   
+
+
      <div className='home1-inside'>
 
         <div className='home1-inside-left'>
@@ -55,7 +58,10 @@ const Home = () => {
 
         </div>
      </div>
-     
+       
+
+
+
     <div className='home2-inside'>
       <div className='home2-inside-left'>
         <div>
@@ -75,6 +81,9 @@ const Home = () => {
       </div>
 
     </div>
+  
+
+
 
     <div className='home3-inside'>
       <div className='home3-inside-left'>
@@ -90,6 +99,55 @@ const Home = () => {
       
       </div>
       <img src={home3_image} alt="" />
+    </div>
+
+
+
+    <div className='home4-inside'>
+      <div className='home4-inside-left'>
+        
+          <h1>'The Last Ship' <br /> Broadway Musical</h1>
+          <p>In 2013, Sting released the album <br />
+           The Last Ship, which drew inspiration from <br />
+           his childhood. He spent his early years not <br />
+           far from the shipyards of Wallsend, a Newcastle <br />
+           neighborhood. Singer and actor Jimmy Nail contributed <br />
+           vocals to the album and he also helped Sting <br />
+            develop a musical based on the album.</p>
+          <button>read more</button>
+
+      </div>
+
+      <div className='home4-inside-right'>
+
+      </div>
+    </div>
+  
+
+
+
+    <div className='home5-inside'>
+      <div className='home5-inside-left'>
+            <h1>What exactly is <br /> the spirit?</h1>
+            <p>I don't know what it is. But it's something <br />
+               I need to connect with on a regular basis and <br />
+               the roots for me are music and my relationships. <br />
+               I don't know what it is. I only have a <br />
+               limited brain. I'm just a human being.</p>
+               <button>read more</button>
+      </div>
+      <img src={home5_image} alt="" />
+      <div className='home5-inside-right'>
+            <h1>''</h1>
+            <p>Learn to enjoy every minute of your <br />
+             life. Be happy now. Don't wait for <br />
+             something outside of yourself to make <br />
+             you happy in the future. Think how really <br />
+             precious is the time you have to spend, whether <br />
+             it's at work or with your family. Every <br />
+             minute should be enjoyed and savored.</p>
+             <button>read more</button>
+      </div>
     </div>
 
     </>
