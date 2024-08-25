@@ -138,8 +138,11 @@ const Home = () => {
       </div>
       <img src={home5_image} alt="" />
       <div className='home5-inside-right'>
-            <h1>''</h1>
-            <p>Learn to enjoy every minute of your <br />
+        <div className='home5-inside-right-inner'>
+        <h1>''</h1>
+        </div>
+          <div className='home5-inside-right-outer'>
+          <p>Learn to enjoy every minute of your <br />
              life. Be happy now. Don't wait for <br />
              something outside of yourself to make <br />
              you happy in the future. Think how really <br />
@@ -147,6 +150,8 @@ const Home = () => {
              it's at work or with your family. Every <br />
              minute should be enjoyed and savored.</p>
              <button>read more</button>
+          </div>
+        
       </div>
     </div>
 
