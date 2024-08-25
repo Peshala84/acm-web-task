@@ -473,3 +473,137 @@
       0px 0px 60px aqua;
 
 }
+@media (max-width: 768px) {
+    .home-inside {
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .home-inside-left {
+        width: 100%;
+        margin-left: 20px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .home-inside-left h1 {
+        font-size: 40px;
+    }
+
+    .home-inside-left p {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .home-inside-left h3 {
+        font-size: 24px;
+    }
+
+    .home-inside-right {
+        width: 100%;
+        margin-right: 20px;
+        height: auto;
+    }
+
+    .home1-inside {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home1-inside-left, 
+    .home1-inside-right {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .home1-inside img {
+        width: 80%;
+        margin: 20px auto;
+        position: relative;
+        height: auto;
+        animation: none;
+    }
+
+    .home2-inside, 
+    .home3-inside, 
+    .home4-inside, 
+    .home5-inside {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home2-inside-left, 
+    .home3-inside-left, 
+    .home4-inside-left, 
+    .home5-inside-left {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .home2-inside-right, 
+    .home3-inside-right, 
+    .home4-inside-right, 
+    .home5-inside-right {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+
+    .home3-inside img, 
+    .home5-inside img {
+        width: 80%;
+        margin: 20px auto;
+        position: relative;
+        height: auto;
+        animation: none;
+    }
+
+    .home5-inside-right-inner h1 {
+        font-size: 100px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .home-inside-left h1 {
+        font-size: 30px;
+    }
+
+    .home-inside-left h3 {
+        font-size: 20px;
+    }
+
+    .home1-inside-left h1, 
+    .home1-inside-right h1, 
+    .home2-inside-right h1, 
+    .home3-inside-left h1, 
+    .home4-inside-left h1, 
+    .home5-inside-left h1 {
+        font-size: 24px;
+    }
+
+    .home1-inside-left p, 
+    .home1-inside-right p, 
+    .home2-inside-right p, 
+    .home3-inside-left p, 
+    .home4-inside-left p, 
+    .home5-inside-left p {
+        font-size: 14px;
+    }
+
+    .home-inside-left button, 
+    .home1-inside-left button, 
+    .home1-inside-right button, 
+    .home2-inside-right button, 
+    .home3-inside-left button, 
+    .home4-inside-left button, 
+    .home5-inside-left button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
