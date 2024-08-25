@@ -20,7 +20,7 @@ const Home = () => {
            <button>read more</button>
         </div>
         <div className='home-inside-right'>
-            <div>
+            <div className='home-inside-right-square'>
 
             </div>
         </div>
@@ -64,7 +64,7 @@ const Home = () => {
 
     <div className='home2-inside'>
       <div className='home2-inside-left'>
-        <div>
+        <div className='home2-inside-left-square'>
           
         </div>
 
@@ -119,6 +119,9 @@ const Home = () => {
       </div>
 
       <div className='home4-inside-right'>
+        <div className='home4-inside-right-square'>
+
+        </div>
 
       </div>
     </div>

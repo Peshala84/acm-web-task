@@ -63,10 +63,15 @@
 .home-inside-right{
     width: 50%;
     height: 100vh;
-  
    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1));
-   
     margin-right: 200px;
+}
+.home-inside-right-square{
+    width: 15%;
+    height: 10%;
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color: aqua;
 }
 .home1-inside{
     display: flex;
@@ -202,6 +207,13 @@
     background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1)); 
     margin-left: 200px;
     
+}
+.home2-inside-left-square{
+    width: 15%;
+    height: 10%;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: aqua;
 }
 .home2-inside-right{
     width: 50%;
@@ -364,6 +376,13 @@
     background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(248, 246, 246, 0.1));
     margin-right: 200px;
    
+}
+.home4-inside-right-square{
+    width: 15%;
+    height: 10%;
+    margin-top: 50px;
+    margin-left: 400px;
+    background-color: aqua;
 }
 .home5-inside{
     display: flex;
